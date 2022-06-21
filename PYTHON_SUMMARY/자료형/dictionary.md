@@ -110,3 +110,28 @@ a = {'a': [1, 2, 3]}
     print('a' in dic) # False
     ```
     
+  + update 메서드
+    #### > 딕셔너리에 딕셔너리를 추가하는 메서드
+    ```python
+    a = {1:'a', 2:'b'}
+    c = {3:'c', 4:'d'}
+    a.update(c)
+    print(a) # {1:'a', 2:'b', 3:'c', 4:'d'}
+    ```
+
+  + zip
+    #### > Key와 Value로 변환 -> dict(zip(Key 값, Value 값))
+    ```python
+    # 튜플
+    keys = (1, 2)
+    vals = ('a', 'b')
+    result = dict(zip(keys, vals))
+    print(result) # {1:'a', 2:'b'}
+    ```
+    ```python
+    # 리스트
+    keys = [1, 2]
+    vals = ['a', 'b']
+    result = dict(zip(keys, vals))
+    print(result) # {1:'a', 2:'b'}
+    ```
