@@ -80,10 +80,10 @@ a = {'a': [1, 2, 3]}
     #### > Key와 Value의 쌍을 튜플로 묶은 값을 dict_items 객체로 반환
     ```python
     dic = {'name':'Kim', 'phone':'01012345678', 'birth': '010101'}
-    dic.items()
+    dic.items() # dict_items([('name', 'Kim'), ('phone', '01012345678'), ('birth', '010101')])
     ```
     
-  + Key: Value 쌍 모두 지우기 (clear)
+  + Key, Value 쌍 모두 지우기 (clear)
     #### > 딕셔너리 안의 모든 요소 삭제
     ```python
     dic = {'name':'Kim', 'phone':'01012345678', 'birth': '010101'}
