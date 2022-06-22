@@ -33,7 +33,7 @@
   ```python
   a = "a"
   b = "b"
-  a + b # 'a b'
+  a + b # 'ab'
   ```
 * 문자열 곱하기
   ```python
@@ -61,7 +61,7 @@
   + 마지막은 포함 X
   ```python
   a = 'python is best'
-  a[0:5] # python : 0번째부터 5번째까지
+  a[0:6] # python : 0번째부터 5번째까지
   a[:] # 전체
   a[:-1] # python is bes
   ```
@@ -181,7 +181,7 @@
   #### > 문자 사이에 삽입
   ```python
   a = 'best'
-  a.join('!') # b!e!s!t
+  '!'.join(a) # b!e!s!t
   ```
 * 소문자를 대문자로 바꾸기 (upper)
   ```python
