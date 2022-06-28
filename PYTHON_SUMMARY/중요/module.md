@@ -169,6 +169,6 @@
 
     1. **PYTHONPATH** 환경 변수 사용하기
         ```cmd
-        set PYTHONPATH=경로
+        set PYTHONPATH = 경로
         ```
         > set 명령어를 사용하여 **PYTHONPATH** 환경 변수에 mod2.py파일이 있는 **경로** 디렉토리를 설정하면 모듈을 불러와서 사용할 수 있음
